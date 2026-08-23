@@ -25,7 +25,7 @@
 - Windows 11 / Python 3.13（追加ライブラリなし。標準機能のみ）
 - LM Studio 0.4.20 のローカルサーバー（http://127.0.0.1:1234）
 - モデル：openai/gpt-oss-20b（GGUF・MXFP4・12.11GB）
-- コンテキスト長 32768 / temperature 0
+- コンテキスト長 32768 / temperature 0- メモリ16GBの端末でWSL経由のLinuxを使う場合、既定の割当は7.6GBとなり、本ツールが前提とする12.11GBのモデルは読み込めない。詳細は `measurements/` を参照
 
 ## 実行
 
